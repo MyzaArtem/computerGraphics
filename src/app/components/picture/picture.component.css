@@ -1,0 +1,121 @@
+.container{
+    height: 100vh;
+}
+
+.wires{
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #3b3b3b;
+    top: 566px;
+}
+
+.trolley{
+    position: relative;
+    width: 600px;
+    height: 200px;
+    background-color: #a1e26c;
+    margin: 20px 0;
+    top: 591px;
+    left: 200px;
+    border-radius: 5px;
+    z-index: 5;
+}
+
+.horn{
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    transform: rotate(30deg);
+    background-color: #575555;
+}
+
+.window{
+    position: absolute;
+    width: 42px;
+    height: 120px;
+    background-color: #496ad4;
+    left: 557px;
+    top: 10px;
+}
+
+.door{
+    position: absolute;
+    width: 74px;
+    height: 120px;
+    background-color: #575555;
+    top: 69px;
+    left: 410px;
+}
+
+.left-door{
+    left: 138px;
+}
+
+.left-horn{
+    top: -25px;
+    left: 163px;
+}
+
+.right-horn{
+    top: -25px;
+    left: 138px;
+}
+
+.windows-list{
+    position: absolute;
+    display: flex;
+    gap: 48px;
+    top: 54px;
+    left: 237px;
+}
+
+.windows-list__item{
+    width: 50px;
+    height: 66px;
+    background-color: #496ad4;
+}
+
+.ones_window{
+    position: absolute;
+    top: 54px;
+    left: 45px;
+}
+
+.wheel{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #3a3a3a;
+}
+
+.right-wheel{
+    top: 139px;
+    left: 491px;
+}
+
+.left-wheel{
+    top: 139px;
+    left: 19px;
+}
+
+.road{
+    position: fixed;
+    width: 100%;
+    height: 300px;
+    background-color: #000;
+    bottom: 0;
+}
+
+.white-stripes{
+    display: flex;
+    gap: 150px;
+    margin-top: 126px;
+}
+
+.white-stripe{
+    width: 150px;
+    height: 30px;
+    background-color: #fff;
+}

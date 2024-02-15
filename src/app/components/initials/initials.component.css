@@ -1,0 +1,78 @@
+.letters-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 20px;
+}
+
+.letter-container{
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.rec{
+    position: absolute;
+    border-radius: 10px;
+    width: 200px;
+    height: 20px;
+}
+
+.recM{
+    background-color: rgb(70, 202, 202);
+}
+
+.recA{
+    background-color: #1837c0;
+}
+
+.recM1{
+    transform: rotate(90deg);
+    right: 90px;
+    top: 90px;
+}
+
+.smallRec{
+    width: 145px;
+}
+
+.recM2{
+    transform: rotate(90deg);
+    left: 90px;
+    top: 90px;
+}
+
+.recM3{
+    transform: rotate(45deg);
+    top: 44px;
+    right: 71px;
+}
+
+.recM4{
+    transform: rotate(-45deg);
+    top: 44px;
+    left: 73px;
+}
+
+.recA1{
+    transform: rotate(65deg);
+    top: 87px;
+    right: -37px;
+}
+
+.recA2{
+    transform: rotate(-65deg);
+    top: 87px;
+    left: -41px 
+}
+
+.recA3{
+    top: 95px;
+    left: 27px;
+}
+
+.jump {
+    transform: translateY(-30px); 
+}
+

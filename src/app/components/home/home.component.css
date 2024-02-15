@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    height: 100vh;
+}
+
+.nav-list{
+    display: flex;
+    color: rgb(25, 73, 112);
+    gap: 50px;
+}
